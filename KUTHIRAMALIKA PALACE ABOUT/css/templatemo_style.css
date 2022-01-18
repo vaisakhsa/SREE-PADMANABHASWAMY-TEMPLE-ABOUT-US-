@@ -1,0 +1,98 @@
+html,body {height:100%;}
+
+.logo-left {
+  border-right: none;
+  float: right;
+	padding: 40px 00px 20px 20px;
+	text-align: right;
+}
+.logo-right {
+  border-left: none;
+	float: left;
+	padding: 40px 20px 20px 1px;
+}
+
+
+/* Paragraph and Heading  */
+
+p {font-size:19px;color:#efe5e5;}
+
+h2 {
+font-size:22px;
+color:red;
+}
+.templatemo-nav {
+	clear: both;
+	font-size: 16px;
+	font-weight: 300;
+	float: right;
+	min-width: 250px;
+}
+.templatemo-nav>li>a {
+	border: 2px solid #8C8C8C;
+	border-radius: 8px;
+	color: white;
+	padding: 15px 50px;
+	margin-bottom: 20px;
+	transition: background-color 0.3s;
+}
+.templatemo-nav>li>a:hover, .templatemo-nav>li>a:focus, .templatemo-nav>li>a.active {
+	background-color: #fff;
+	color: #000;
+	font-weight: 700;
+}
+.templatemo-nav>li>a>.fa { margin-right: -100px; }
+.templatemo-header {
+	clear: both;
+	font-size: 30px;
+	margin-top: 0;
+}
+article { margin-top: 40px; }
+article p {
+	margin-bottom: 15px;
+	text-align: justify;
+}
+.templatemo-social { text-align: right; }
+.templatemo-social i {
+	border: 1px solid #ccc;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	transition: background-color 0.3s;
+}
+.templatemo-social a { color: #757575; }
+.templatemo-social a:hover i {
+	background-color: #000;
+	color: #fff;
+}
+.row .templatemo-item {	margin-top: 0; }
+.templatemo-item p { margin-top: 20px; }
+.templatemo-item ul { margin-bottom: 20px; }
+.templatemo-item ul li { list-style: none; }
+.fa.templatemo-service-icon { font-size: 100px; }
+
+.templatemo-testimonial { overflow: hidden; }
+.templatemo-testimonial .fa {
+	color: #C8B55E;
+	padding: 5px;
+}
+.templatemo-border-left {
+	border-left: 100px solid #C8B55E;
+	padding-left: -5px;
+}
+.templatemo-border-right {
+	border-right: 100px solid #C8B55E;
+	padding-right: -5px;
+	text-align: right;
+}
+.templatemo-testimonial footer { color: #777;}
+.templatemo-testimonial footer:before {	content: '\2014 \00A0'; }
+.form-control:focus {
+	border-color: #DEB215;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(234, 231, 60, 0.6);
+}
+.margin-bottom-60 {	margin-bottom: 60px; }
+
+/* End Paragraph and Heading */
